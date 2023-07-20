@@ -2,7 +2,7 @@
   "expo": {
     "name": "Apods",
     "slug": "Apods",
-    "scheme": "notJustAstronomy",
+    "scheme": "astronomy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -31,6 +31,9 @@
     "plugins": [
       "expo-router"
     ],
+    "experiments": {
+      "tsconfigPaths": true
+    },
     "sdkVersion": "49.0.0"
   },
   "name": "apods"
