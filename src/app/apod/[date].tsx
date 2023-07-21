@@ -6,7 +6,7 @@ import { fetchApod } from "@/api/apods"
 import ApodListItem from "@/components/ApodListItem"
 
 const ApodDetails = () => {
-  const {date} = useLocalSearchParams<Apod>()
+  const {date} = useLocalSearchParams()
   const [apod, setApod] = useState<Apod>(null)
 
   useEffect(() => {
